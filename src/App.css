@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.HeaderSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: aqua;
+  padding-top: 20px;
+  
+}
+.center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 10px;
+  
+}
+.left{
+  flex: 4;
+}
+.center{
+  flex: 4;
+}
+.search{
+  flex: 2;
+  
+}
+.search input{
+  padding: 10px;
+  width: 20rem;
+  border-radius: 5px;
+  margin-left: -150px;
+}
+.right{
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.title{
+  font-size: 1rem;
+}
+.bannerbox img{
+  width: 100%;
+    
+}
+.bannerbox{
+  margin: 5px 0px;
+}
+.menimages{
+  display: flex;
+  gap: 10px;
+}
+.menimages img{
+  width: 245px;
+  height: 240px;
+}
+/* index.css or App.css */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
